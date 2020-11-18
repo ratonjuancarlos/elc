@@ -4,14 +4,20 @@
  */
 import React, { useState } from "react";
 import PropTypes from "prop-types";
+import { useRequest } from "../apiContext";
 
-const Menu = ({ doSearch }) => {
+const Menu = () => {
   const [showSearch, setShowSearch] = useState(false);
   const [searchText, setSearchText] = useState("");
+  const getResults = useRequest()
 
   const onSearch = (e) => {
     setSearchText(e.target.value);
-    doSearch(e);
+    getResults(e);
+  };
+  const onClose = (e) => {
+    setShowSearch(false);
+    getResults();
   };
 
   const menuItems = [
@@ -43,7 +49,7 @@ const Menu = ({ doSearch }) => {
       </div>
       <div className={`${showSearch ? "showing " : ""} search-container`}>
         <input type="text" onChange={onSearch} value={searchText} />
-        <a href="#" onClick={() => setShowSearch(false)}>
+        <a href="#" onClick={onClose}>
           <i className="material-icons close">close</i>
         </a>
       </div>

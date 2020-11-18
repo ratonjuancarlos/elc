@@ -24,6 +24,25 @@ const http      = require('http');
 const hostname  = 'localhost';
 const port      = 3035;
 
+
+
+const matchText = (matcher, text) => matcher.test(text)
+
+const matchTags = (matcher, tags) => {
+    const pipi = tags.filter(tag=>matchText(matcher, tag))
+}
+
+
+
+const filterData = searchText => product => {
+    const matcher = new RegExp(searchText, "i");
+    const isInName = matcher.test(product.name)
+    const isInTags = product.tags.some(tag=>matcher.test(tag))
+    return isInName || isInTags;
+}
+
+
+const cleanText = text => text.replace('/?search=','').replace(/%20/g, ' ');
 /**
  * Start the Node Server Here...
  *
@@ -35,11 +54,9 @@ const port      = 3035;
 http.createServer(function (req, res) {
     // .. Here you can create your data response in a JSON format
     const { url } = req;
-    const searchText = url.replace('/?search=','');
-    var matcher = new RegExp(searchText, "i");
-    const filteredData = data.filter(product=>matcher.test(product.name))
+    const searchText = cleanText(url)
 
-
+    const filteredData = data.filter(filterData(searchText))
 
     const headers = {
         "Access-Control-Allow-Origin": "*",

@@ -7,9 +7,6 @@
     "type": "git",
     "url": ""
   },
-  "dependencies": {
-    "prop-types": "^15.7.2"
-  },
   "scripts": {
     "servers": "NODE_ENV=development gulp watch",
     "dev-server": "NODE_ENV=development gulp dev_server",
@@ -43,7 +40,9 @@
     "gulp-rename": "1.2.2",
     "gulp-sass": "3.1.0",
     "gulp-sourcemaps": "2.6.1",
+    "lodash": "^4.17.20",
     "nodemon": "^1.19.4",
+    "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "uglify-js": "3.2.2",
