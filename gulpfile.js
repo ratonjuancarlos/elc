@@ -142,7 +142,7 @@ gulp.task('scripts', function () {
 	infoLog('Scripts ran on main.js');
 
 	// Return the task
-	return gulp.src('./app/scripts/main.js')
+	return gulp.src('./app/scripts/index.js')
 		.pipe(webpack(
 			webpack_config_dev
 		))
@@ -150,7 +150,7 @@ gulp.task('scripts', function () {
 		.pipe(gulp.dest('./' + _devFolder + '/js/'))
 		.on('error', errorLog)
 		.pipe(browserSync.stream());
-	
+
 });
 
 // Scripts runner, this time using the Webpack Framework
@@ -170,7 +170,7 @@ gulp.task('minify', function () {
 
 
 
-// Template language compiler for taking Jade templates and moving them over to HTML files, 
+// Template language compiler for taking Jade templates and moving them over to HTML files,
 // this is an alternative to using the Jade Renderer on the Server
 gulp.task('mustache',function() {
 
@@ -201,17 +201,17 @@ gulp.task('templates', ['mustache'], function() {
 =            Non Watched Tasks            =
 =       all need to be self executed      =
 =========================================*/
- 
+
 // Scripts runner, converts all the third party JS and CSS etc. to a single vendor based file
 // then compresses file and puts it in the correct folder.
 gulp.task('vendor', function() {
-	
+
 	// Log this change
 	infoLog('Vendor Scripts ran');
 
 	// All the vendor JS
 	gulp.src('./app/third_party/**/*.js')
-		.pipe( uglify() )		
+		.pipe( uglify() )
 		.pipe( gulp.dest('./' + _devFolder + '/js') );
 
 	// All the vendor CSS
@@ -223,7 +223,7 @@ gulp.task('vendor', function() {
 
 });
 
-// Clear out metadata from Photohshop Images and Shrink em' Down, has to be self exectued 
+// Clear out metadata from Photohshop Images and Shrink em' Down, has to be self exectued
 // as there are a few bugs with del and watching etc.
 gulp.task('images', function() {
 
