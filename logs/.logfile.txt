@@ -1,2 +1,226 @@
 :::: Log File ::::
 
+
+[18/11/2020 -- 0:56]  Info task started
+[18/11/2020 -- 0:59]  Scripts ran on main.js
+[18/11/2020 -- 1:0]  Scripts ran on main.js
+[18/11/2020 -- 1:2]  Scripts ran on main.js
+[18/11/2020 -- 1:3]  Scripts ran on main.js
+[18/11/2020 -- 1:3]  Scripts ran on main.js
+[18/11/2020 -- 1:3]  Scripts ran on main.js
+[18/11/2020 -- 1:4]  Scripts ran on main.js
+[18/11/2020 -- 1:4]  Scripts ran on main.js
+[18/11/2020 -- 1:7]  Scripts ran on main.js
+[18/11/2020 -- 1:7]  Scripts ran on main.js
+[18/11/2020 -- 1:8]  Scripts ran on main.js
+[18/11/2020 -- 1:10]  Scripts ran on main.js
+[18/11/2020 -- 1:10]  Scripts ran on main.js
+[18/11/2020 -- 1:10]  Scripts ran on main.js
+[18/11/2020 -- 1:10]  Scripts ran on main.js
+[18/11/2020 -- 1:10]  Scripts ran on main.js
+[18/11/2020 -- 1:11]  Scripts ran on main.js
+[18/11/2020 -- 1:11]  Scripts ran on main.js
+[18/11/2020 -- 1:12]  Scripts ran on main.js
+[18/11/2020 -- 1:12]  Scripts ran on main.js
+[18/11/2020 -- 1:13]  Scripts ran on main.js
+[18/11/2020 -- 1:13]  Scripts ran on main.js
+[18/11/2020 -- 1:14]  Scripts ran on main.js
+[18/11/2020 -- 1:14]  Scripts ran on main.js
+[18/11/2020 -- 1:14]  Scripts ran on main.js
+[18/11/2020 -- 1:15]  Scripts ran on main.js
+[18/11/2020 -- 1:15]  Scripts ran on main.js
+[18/11/2020 -- 1:15]  Scripts ran on main.js
+[18/11/2020 -- 1:18]  Scripts ran on main.js
+[18/11/2020 -- 1:19]  Scripts ran on main.js
+[18/11/2020 -- 1:19]  Scripts ran on main.js
+[18/11/2020 -- 1:20]  Scripts ran on main.js
+[18/11/2020 -- 1:22]  Info task started
+[18/11/2020 -- 1:23]  Scripts ran on main.js
+[18/11/2020 -- 1:23]  Scripts ran on main.js
+[18/11/2020 -- 1:26]  Scripts ran on main.js
+[18/11/2020 -- 1:56]  Info task started
+[18/11/2020 -- 2:3]  restarted!
+[18/11/2020 -- 2:3]  restarted!
+[18/11/2020 -- 2:3]  restarted!
+[18/11/2020 -- 2:3]  restarted!
+[18/11/2020 -- 2:4]  Scripts ran on main.js
+[18/11/2020 -- 2:5]  restarted!
+[18/11/2020 -- 2:5]  restarted!
+[18/11/2020 -- 2:7]  restarted!
+[18/11/2020 -- 2:9]  restarted!
+[18/11/2020 -- 2:9]  restarted!
+[18/11/2020 -- 2:10]  restarted!
+[18/11/2020 -- 2:10]  restarted!
+[18/11/2020 -- 2:15]  restarted!
+[18/11/2020 -- 2:15]  restarted!
+[18/11/2020 -- 2:16]  restarted!
+[18/11/2020 -- 2:17]  restarted!
+[18/11/2020 -- 2:17]  restarted!
+[18/11/2020 -- 2:17]  restarted!
+[18/11/2020 -- 2:17]  restarted!
+[18/11/2020 -- 2:18]  restarted!
+[18/11/2020 -- 2:18]  restarted!
+[18/11/2020 -- 2:19]  restarted!
+[18/11/2020 -- 2:20]  restarted!
+[18/11/2020 -- 2:20]  restarted!
+[18/11/2020 -- 2:20]  restarted!
+[18/11/2020 -- 2:21]  restarted!
+[18/11/2020 -- 2:21]  restarted!
+[18/11/2020 -- 2:21]  restarted!
+[18/11/2020 -- 2:21]  restarted!
+[18/11/2020 -- 2:21]  restarted!
+[18/11/2020 -- 2:21]  restarted!
+[18/11/2020 -- 2:22]  restarted!
+[18/11/2020 -- 2:22]  restarted!
+[18/11/2020 -- 2:23]  restarted!
+[18/11/2020 -- 2:23]  restarted!
+[18/11/2020 -- 2:23]  restarted!
+[18/11/2020 -- 2:23]  restarted!
+[18/11/2020 -- 2:24]  restarted!
+[18/11/2020 -- 2:24]  restarted!
+[18/11/2020 -- 2:24]  restarted!
+[18/11/2020 -- 2:24]  restarted!
+[18/11/2020 -- 2:24]  restarted!
+[18/11/2020 -- 2:25]  restarted!
+[18/11/2020 -- 2:25]  restarted!
+[18/11/2020 -- 2:25]  restarted!
+[18/11/2020 -- 2:25]  restarted!
+[18/11/2020 -- 2:25]  Scripts ran on main.js
+[18/11/2020 -- 2:26]  Scripts ran on main.js
+[18/11/2020 -- 2:26]  Scripts ran on main.js
+[18/11/2020 -- 2:30]  Scripts ran on main.js
+[18/11/2020 -- 2:30]  Scripts ran on main.js
+[18/11/2020 -- 2:32]  Scripts ran on main.js
+[18/11/2020 -- 2:32]  Scripts ran on main.js
+[18/11/2020 -- 2:33]  Scripts ran on main.js
+[18/11/2020 -- 2:33]  Scripts ran on main.js
+[18/11/2020 -- 2:33]  Scripts ran on main.js
+[18/11/2020 -- 2:33]  Scripts ran on main.js
+[18/11/2020 -- 2:34]  Scripts ran on main.js
+[18/11/2020 -- 2:34]  Sass ran on files
+[18/11/2020 -- 2:36]  Scripts ran on main.js
+[18/11/2020 -- 2:37]  Scripts ran on main.js
+[18/11/2020 -- 2:39]  Info task started
+[18/11/2020 -- 2:40]  Scripts ran on main.js
+[18/11/2020 -- 2:41]  Sass ran on files
+[18/11/2020 -- 2:41]  Sass ran on files
+[18/11/2020 -- 2:41]  Sass ran on files
+[18/11/2020 -- 2:41]  Sass ran on files
+[18/11/2020 -- 2:42]  Scripts ran on main.js
+[18/11/2020 -- 2:43]  Scripts ran on main.js
+[18/11/2020 -- 2:43]  Scripts ran on main.js
+[18/11/2020 -- 2:45]  Scripts ran on main.js
+[18/11/2020 -- 2:49]  Scripts ran on main.js
+[18/11/2020 -- 2:51]  Info task started
+[18/11/2020 -- 2:52]  Scripts ran on main.js
+[18/11/2020 -- 2:52]  Scripts ran on main.js
+[18/11/2020 -- 2:52]  Scripts ran on main.js
+[18/11/2020 -- 2:52]  Scripts ran on main.js
+[18/11/2020 -- 2:53]  Scripts ran on main.js
+[18/11/2020 -- 2:53]  Scripts ran on main.js
+[18/11/2020 -- 2:53]  Scripts ran on main.js
+[18/11/2020 -- 2:54]  Sass ran on files
+[18/11/2020 -- 2:54]  Sass ran on files
+[18/11/2020 -- 2:55]  Sass ran on files
+[18/11/2020 -- 2:55]  Sass ran on files
+[18/11/2020 -- 2:57]  Sass ran on files
+[18/11/2020 -- 2:58]  Sass ran on files
+[18/11/2020 -- 2:59]  Sass ran on files
+[18/11/2020 -- 3:0]  Sass ran on files
+[18/11/2020 -- 3:1]  Scripts ran on main.js
+[18/11/2020 -- 3:1]  Scripts ran on main.js
+[18/11/2020 -- 3:2]  Scripts ran on main.js
+[18/11/2020 -- 3:2]  Scripts ran on main.js
+[18/11/2020 -- 3:3]  Scripts ran on main.js
+[18/11/2020 -- 3:3]  Scripts ran on main.js
+[18/11/2020 -- 3:3]  Scripts ran on main.js
+[18/11/2020 -- 3:3]  Scripts ran on main.js
+[18/11/2020 -- 3:5]  Sass ran on files
+[18/11/2020 -- 3:7]  Sass ran on files
+[18/11/2020 -- 3:7]  Sass ran on files
+[18/11/2020 -- 3:8]  Scripts ran on main.js
+[18/11/2020 -- 3:9]  Scripts ran on main.js
+[18/11/2020 -- 3:9]  Scripts ran on main.js
+[18/11/2020 -- 3:10]  Scripts ran on main.js
+[18/11/2020 -- 3:11]  Scripts ran on main.js
+[18/11/2020 -- 3:12]  Sass ran on files
+[18/11/2020 -- 3:12]  Sass ran on files
+[18/11/2020 -- 3:13]  Sass ran on files
+[18/11/2020 -- 3:13]  Sass ran on files
+[18/11/2020 -- 3:13]  Scripts ran on main.js
+[18/11/2020 -- 3:15]  Sass ran on files
+[18/11/2020 -- 3:15]  Sass ran on files
+[18/11/2020 -- 3:16]  Sass ran on files
+[18/11/2020 -- 3:16]  Sass ran on files
+[18/11/2020 -- 3:17]  Sass ran on files
+[18/11/2020 -- 3:17]  Scripts ran on main.js
+[18/11/2020 -- 3:18]  Sass ran on files
+[18/11/2020 -- 3:19]  Sass ran on files
+[18/11/2020 -- 3:20]  Sass ran on files
+[18/11/2020 -- 3:20]  Info task started
+[18/11/2020 -- 3:21]  Sass ran on files
+[18/11/2020 -- 3:22]  Sass ran on files
+[18/11/2020 -- 3:22]  Sass ran on files
+[18/11/2020 -- 3:22]  Sass ran on files
+[18/11/2020 -- 3:23]  Sass ran on files
+[18/11/2020 -- 3:24]  Sass ran on files
+[18/11/2020 -- 3:25]  Sass ran on files
+[18/11/2020 -- 3:28]  Sass ran on files
+[18/11/2020 -- 3:28]  Sass ran on files
+[18/11/2020 -- 3:28]  Sass ran on files
+[18/11/2020 -- 3:30]  Sass ran on files
+[18/11/2020 -- 3:30]  Scripts ran on main.js
+[18/11/2020 -- 3:31]  Sass ran on files
+[18/11/2020 -- 3:31]  Scripts ran on main.js
+[18/11/2020 -- 3:32]  Sass ran on files
+[18/11/2020 -- 3:32]  Sass ran on files
+[18/11/2020 -- 3:33]  Sass ran on files
+[18/11/2020 -- 3:33]  Sass ran on files
+[18/11/2020 -- 3:33]  Sass ran on files
+[18/11/2020 -- 3:33]  Sass ran on files
+[18/11/2020 -- 3:34]  Sass ran on files
+[18/11/2020 -- 3:34]  Sass ran on files
+[18/11/2020 -- 3:35]  Sass ran on files
+[18/11/2020 -- 3:35]  Scripts ran on main.js
+[18/11/2020 -- 3:36]  Sass ran on files
+[18/11/2020 -- 3:36]  Sass ran on files
+[18/11/2020 -- 3:36]  Sass ran on files
+[18/11/2020 -- 3:38]  Sass ran on files
+[18/11/2020 -- 3:38]  Sass ran on files
+[18/11/2020 -- 3:38]  Sass ran on files
+[18/11/2020 -- 3:39]  Sass ran on files
+[18/11/2020 -- 3:39]  Scripts ran on main.js
+[18/11/2020 -- 3:41]  Sass ran on files
+[18/11/2020 -- 3:42]  Sass ran on files
+[18/11/2020 -- 3:42]  Sass ran on files
+[18/11/2020 -- 3:42]  Sass ran on files
+[18/11/2020 -- 3:43]  Sass ran on files
+[18/11/2020 -- 3:43]  Sass ran on files
+[18/11/2020 -- 3:44]  Sass ran on files
+[18/11/2020 -- 3:44]  Sass ran on files
+[18/11/2020 -- 3:45]  Sass ran on files
+[18/11/2020 -- 3:45]  Sass ran on files
+[18/11/2020 -- 3:45]  Sass ran on files
+[18/11/2020 -- 3:46]  Sass ran on files
+[18/11/2020 -- 3:47]  Sass ran on files
+[18/11/2020 -- 3:48]  Sass ran on files
+[18/11/2020 -- 3:49]  Info task started
+[18/11/2020 -- 3:49]  Sass ran on files
+[18/11/2020 -- 3:50]  Sass ran on files
+[18/11/2020 -- 3:50]  Scripts ran on main.js
+[18/11/2020 -- 3:50]  Sass ran on files
+[18/11/2020 -- 3:51]  Sass ran on files
+[18/11/2020 -- 3:51]  Sass ran on files
+[18/11/2020 -- 3:52]  Sass ran on files
+[18/11/2020 -- 3:52]  Sass ran on files
+[18/11/2020 -- 3:52]  Sass ran on files
+[18/11/2020 -- 3:53]  Scripts ran on main.js
+[18/11/2020 -- 3:53]  Sass ran on files
+[18/11/2020 -- 3:54]  Sass ran on files
+[18/11/2020 -- 3:54]  Sass ran on files
+[18/11/2020 -- 3:54]  Sass ran on files
+[18/11/2020 -- 3:55]  Scripts ran on main.js
+[18/11/2020 -- 3:56]  Scripts ran on main.js
+[18/11/2020 -- 3:57]  Scripts ran on main.js
+[18/11/2020 -- 3:57]  Scripts ran on main.js
+[18/11/2020 -- 3:57]  Sass ran on files

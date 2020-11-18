@@ -1,6 +1,6 @@
 /**
  * This file will hold the Menu that lives at the top of the Page, this is all rendered using a React Component...
- * 
+ *
  */
 import React from 'react';
 
@@ -13,7 +13,8 @@ class Menu extends React.Component {
     constructor() {
         super();
         this.state = {
-            showingSearch: false
+            showingSearch: false,
+            searchText: ''
         };
     }
 
@@ -25,8 +26,11 @@ class Menu extends React.Component {
     showSearchContainer(e) {
         e.preventDefault();
         this.setState({
-            showingSearch: !this.state.showingSearch
+            showingSearch: !this.state.showingSearch,
+            searchText: ''
         });
+        this.props.doSearch()
+
     }
 
     /**
@@ -35,16 +39,20 @@ class Menu extends React.Component {
      * @param e [Object] - the event from a text change handler
      */
     onSearch(e) {
-        
+
         // Start Here
         // ...
-        
+        this.setState({
+            showingSearch: this.state.showingSearch,
+            searchText: e.target.value
+        });
+        this.props.doSearch(e)
 
     }
 
     /**
      * Renders the default app in the window, we have assigned this to an element called root.
-     * 
+     *
      * @returns JSX
      * @memberof App
     */
@@ -70,7 +78,7 @@ class Menu extends React.Component {
                     </div>
                 </div>
                 <div className={(this.state.showingSearch ? "showing " : "") + "search-container"}>
-                    <input type="text" onChange={(e) => this.onSearch(e)} />
+                    <input type="text" onChange={(e) => this.onSearch(e)} value={this.state.searchText} />
                     <a href="#" onClick={(e) => this.showSearchContainer(e)}>
                         <i className="material-icons close">close</i>
                     </a>

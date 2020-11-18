@@ -1,0 +1,63 @@
+/**
+ * This is the results component
+ *
+ */
+div#results {
+  top: 63px;
+  position: fixed;
+  z-index: 99;
+  position: relative;
+  background-color: #fff;
+
+  div.results {
+    font-family: Helvetica, Arial, Sans-Serif;
+    padding-bottom: 25px;
+    position: absolute;
+    background-color: #fff;
+
+    a {
+      color: inherit;
+    }
+
+    div.header {
+      margin: 0 10%;
+      // background-color: #fff;
+      padding: 10px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      border-bottom: 1px solid;
+    }
+
+    div.list {
+      margin: 0 10%;
+    }
+    div.result {
+      background-color: #fff;
+      max-width: 25%;
+      display: inline-block;
+      padding: 0 25px;
+
+      span.image {
+        float: left;
+        margin-top: 20px;
+
+        img {
+          height: 175px;
+        }
+      }
+      span.info {
+        text-transform: uppercase;
+        width: 65%;
+        float: right;
+        text-align: left;
+
+        div.name {
+          font-weight: bold;
+          margin-bottom: 10px;
+          font-size: 19px;
+          height: 4rem;
+        }
+      }
+    }
+  }
+}

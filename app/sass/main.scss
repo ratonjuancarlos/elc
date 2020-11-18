@@ -8,6 +8,7 @@ $siteWidth: 1280px;
 // Imports
 @import '_menu.scss';
 @import '_home.scss';
+@import 'results.scss';
 
 
 html, html * {
@@ -31,7 +32,7 @@ main {
     * {
         -webkit-font-smoothing: antialiased;
     }
-    
+
     // The links for the app all have these main attributes
     a {
         transition: opacity .5s;
@@ -45,7 +46,7 @@ main {
     }
 
     // Inner Divs are used for general full width containers
-    div.inner { 
+    div.inner {
         width: 100%;
         height: auto;
         background-color: rgb(150, 0, 0);

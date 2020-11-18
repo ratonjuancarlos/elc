@@ -29,6 +29,27 @@ section#home { position: absolute; width: 100%; height: 100%; top: 0; left: 0; p
 
 section#home div.content { max-width: 1280px; margin: 0 auto; color: #FFF; }
 
+/** This is the results component */
+div#results { top: 63px; position: fixed; z-index: 99; position: relative; background-color: #fff; }
+
+div#results div.results { font-family: Helvetica, Arial, Sans-Serif; padding-bottom: 25px; position: absolute; background-color: #fff; }
+
+div#results div.results a { color: inherit; }
+
+div#results div.results div.header { margin: 0 10%; padding: 10px; font-weight: bold; margin-bottom: 10px; border-bottom: 1px solid; }
+
+div#results div.results div.list { margin: 0 10%; }
+
+div#results div.results div.result { background-color: #fff; max-width: 25%; display: inline-block; padding: 0 25px; }
+
+div#results div.results div.result span.image { float: left; margin-top: 20px; }
+
+div#results div.results div.result span.image img { height: 175px; }
+
+div#results div.results div.result span.info { text-transform: uppercase; width: 65%; float: right; text-align: left; }
+
+div#results div.results div.result span.info div.name { font-weight: bold; margin-bottom: 10px; font-size: 19px; height: 4rem; }
+
 html, html * { -webkit-box-sizing: border-box; box-sizing: border-box; padding: 0; margin: 0; }
 
 html, body { width: 100%; height: 100%; }

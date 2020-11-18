@@ -1,11 +1,11 @@
 /**
  * The Server Can be configured and created here...
- * 
+ *
  * You can find the JSON Data file here in the Data module. Feel free to impliment a framework if needed.
  */
 
 /*
--- This is the product data, you can view it in the file itself for more details 
+-- This is the product data, you can view it in the file itself for more details
 {
     "_id": "019",
     "isActive": "false",
@@ -24,19 +24,30 @@ const http      = require('http');
 const hostname  = 'localhost';
 const port      = 3035;
 
-/** 
+/**
  * Start the Node Server Here...
- * 
- * The http.createServer() method creates a new server that listens at the specified port.  
- * The requestListener function (function (req, res)) is executed each time the server gets a request. 
+ *
+ * The http.createServer() method creates a new server that listens at the specified port.
+ * The requestListener function (function (req, res)) is executed each time the server gets a request.
  * The Request object 'req' represents the request to the server.
  * The ServerResponse object 'res' represents the writable stream back to the client.
  */
 http.createServer(function (req, res) {
     // .. Here you can create your data response in a JSON format
-    
-    
-    res.write("Response goes in here..."); // Write out the default response
+    const { url } = req;
+    const searchText = url.replace('/?search=','');
+    var matcher = new RegExp(searchText, "i");
+    const filteredData = data.filter(product=>matcher.test(product.name))
+
+
+
+    const headers = {
+        "Access-Control-Allow-Origin": "*",
+    };
+
+    res.writeHead(200, {'Content-Type': 'application/json'});
+    res.writeHead(200, headers);
+    res.write(JSON.stringify(filteredData)); // Write out the default response
     res.end(); //end the response
 }).listen( port );
 
